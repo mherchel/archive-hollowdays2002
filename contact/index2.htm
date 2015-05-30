@@ -51,7 +51,7 @@ function MM_validateForm() { //v4.0
     <tr> 
       <td height="215"></td>
       <td valign="top"> 
-        <form name="Submit" method="post" action="http://www.hollowdays.com/scgi-bin/formmail.cgi" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
+        <form name="Submit" method="post" action="/scgi-bin/formmail.cgi" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
           <p align="left"><font size="2">Name</font><br>
             <font size="2"> 
             <input type="text" name="Name" size="50" onFocus="MM_setTextOfTextfield('Name','','')">
@@ -65,7 +65,7 @@ function MM_validateForm() { //v4.0
             <input name="Submit" type="submit" onClick="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue" value="Submit">
             <input type="hidden" name="subject" value="mailing list submit">
             <input type="hidden" name="recipient" value="mail@hollowdays.com">
-            <input type="hidden" name="redirect" value="http://www.hollowdays.com/contact/thanks.htm">
+            <input type="hidden" name="redirect" value="/contact/thanks.htm">
             </font> 
             <input type="hidden" name="realname" value="Mailing List Submit">
             <input type="hidden" name="env_report" value="REMOTE_HOST, REMOTE_ADDR, REMOTE_USER, HTTP_USER_AGENT, SERVER_NAME">

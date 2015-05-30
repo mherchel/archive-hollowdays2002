@@ -50,7 +50,7 @@ function MM_setTextOfTextfield(objName,x,newText) { //v3.0
       <td width="9" height="244"></td>
       <td width="129"></td>
       <td width="462"" valign="top"235> 
-        <form name="Submit" method="post" action="http://www.hollowdays.com/scgi-bin/formmail.cgi" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
+        <form name="Submit" method="post" action="/scgi-bin/formmail.cgi" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
           <p align="left">Name<br>
             <input type="text" name="Name" size="50" value="&lt;your name&gt;" onFocus="MM_setTextOfTextfield('Name','','')">
             *required<br>
@@ -62,7 +62,7 @@ function MM_setTextOfTextfield(objName,x,newText) { //v3.0
             <input type="submit" name="Submit" value="Submit">
             <input type="hidden" name="subject" value="mailing list submit">
             <input type="hidden" name="recipient" value="mail@hollowdays.com">
-            <input type="hidden" name="redirect" value="http://www.hollowdays.com/list/thanks.htm">
+            <input type="hidden" name="redirect" value="/list/thanks.htm">
             <input type="hidden" name="realname" value="Mailing List Submit">
             <input type="hidden" name="env_report" value="REMOTE_HOST, REMOTE_ADDR, REMOTE_USER, HTTP_USER_AGENT, SERVER_NAME">
           </p>
