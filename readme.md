@@ -1,7 +1,5 @@
-# Hollow Days Website Circa 2003
+# Hollow Days Website Circa 2002
 
-This is the first version of a website that I did for my brother's band back in 2003. Check out my awesome Fireworks, Dreamweaver and classic ASP skillz (yes... Skillz with a 'z'!).
+This is the first version of a website that I did for my brother's band back in 2002. My brother's band is still around. Feel free to download the MP3s and check them out at [https://www.facebook.com/hollowdaysrocks](https://www.facebook.com/hollowdaysrocks).
 
-My brother's band is still around. Feel free to download the MP3s and check them out at [https://www.facebook.com/hollowdaysrocks](https://www.facebook.com/hollowdaysrocks)!
-
-You can see this site on Github pages at [http://hd2003.herchel.com/](http://hd2003.herchel.com/).
+You can see this site on Github pages at [archive-hollowdays2002.herchel.com/](http://archive-hollowdays2002.herchel.com/).
