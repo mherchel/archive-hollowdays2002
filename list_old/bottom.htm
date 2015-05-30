@@ -1,0 +1,93 @@
+<html>
+<head>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+
+function MM_setTextOfTextfield(objName,x,newText) { //v3.0
+  var obj = MM_findObj(objName); if (obj) obj.value = newText;
+}
+//-->
+</script>
+</head><body bgcolor="#000000" text="#CCCCCC" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+<Center>
+  <title>Hollow Days</title>
+  <tr>
+  <td valign="top">
+    <div align="left">
+        <p>&nbsp;</p>
+      </div>
+    </td>
+    <td>
+<div align="left"></div>
+  </td>
+  </tr>
+<div align="left"></div>
+  <table width="600" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td width="9" height="244"></td>
+      <td width="129"></td>
+      <td width="462"" valign="top"235> 
+        <form name="Submit" method="post" action="http://www.hollowdays.com/scgi-bin/formmail.cgi" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
+          <p align="left">Name<br>
+            <input type="text" name="Name" size="50" value="&lt;your name&gt;" onFocus="MM_setTextOfTextfield('Name','','')">
+            *required<br>
+            email address<br>
+            <input type="text" name="Email" size="50" value="&lt;you@hollowdays.com&gt;" onFocus="MM_setTextOfTextfield('Email','','')">
+            *required<br>
+            comments <br>
+            <textarea name="Comments" cols="50" rows="2" onFocus="MM_setTextOfTextfield('Comments','','')">YOU GUYS SUCK!</textarea>
+            <input type="submit" name="Submit" value="Submit">
+            <input type="hidden" name="subject" value="mailing list submit">
+            <input type="hidden" name="recipient" value="mail@hollowdays.com">
+            <input type="hidden" name="redirect" value="http://www.hollowdays.com/list/thanks.htm">
+            <input type="hidden" name="realname" value="Mailing List Submit">
+            <input type="hidden" name="env_report" value="REMOTE_HOST, REMOTE_ADDR, REMOTE_USER, HTTP_USER_AGENT, SERVER_NAME">
+          </p>
+          <p align="left">&nbsp;</p>
+        </form>
+      </td>
+    </tr>
+    <tr> 
+      <td height="60"></td>
+      <td colspan="2"" valign="top"> 
+        <div align="center"><a href="/" target="_parent">home</a> | <a href="/news/" target="_parent">news</a> 
+          | <a href="/shows/" target="_parent">shows</a> | <a href="/bios/" target="_parent">bios</a> 
+          | <a href="/mp3s/" target="_parent">mp3s</a> | <a href="/pictures/" target="_parent">pictures</a> 
+          | <a href="/contact/" target="_parent">contact</a> | <a href="mailto:band@hollowdays.com">email</a> 
+          | <a href="/list/" target="_parent">mailing list</a> | <a href="/links/" target="_parent">links</a><br>
+          Copyright ©2002 Hollow Days<br>
+          <a href="http://www.herchel.com" target="_parent">website designed by 
+          herchel design</a></div>
+      </td>
+    </tr>
+    <tr> 
+      <td height="1"></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</center></body>
+</html>

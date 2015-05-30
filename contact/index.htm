@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Hollow Days - Contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+a:hover {
+	text-decoration: none;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#CCCCCC" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+<div align="center"><img src="main.jpg" border="0" usemap="#Map"> 
+  <map name="Map">
+    <area shape="rect" coords="-142,-25,274,122" href="/">
+  </map>
+  <br>
+  <table width="700" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr> 
+      <td width="104" height="42">&nbsp;</td>
+      <td width="443">&nbsp;</td>
+      <td width="87">&nbsp;</td>
+      <td width="66">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="20">&nbsp;</td>
+      <td valign="top"><div align="left"><font size="4"><strong>General Contact 
+          Info</strong></font></div></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td height="170">&nbsp;</td>
+      <td colspan="2" valign="top"><form method="POST" action="http://www.webhost4life.com/cgi-bin/ultra/ultra-mail.pl" onSubmit="MM_validateForm('Name','','R','Email','','RisEmail');return document.MM_returnValue">
+          <p align="left"><font size="2">Name</font><br>
+            <font size="2"> 
+            <input type="text" name="Name" size="50" onFocus="MM_setTextOfTextfield('Name','','')">
+            *required</font><br>
+            <font size="2">email address</font><br>
+            <font size="2"> 
+            <input type=text name=XX-email size=50>
+            *required</font><br>
+            <font size="2">comments <br>
+            <textarea name="Comments" cols="50" rows="2" onFocus="MM_setTextOfTextfield('Comments','','')"></textarea>
+            <input name="Submit" type="submit" onClick="MM_validateForm('Name','','R','XX-email','','RisEmail');return document.MM_returnValue" value="Submit">
+            <input type="Hidden" name="XX-subject" value="Contact Page Submit">
+            <input type="Hidden" name="XX-send-to-email" value="mail@hollowdays.com">
+            <input type="Hidden" name="XX-redirect-to-url" value="http://www.hollowdays.com">
+            </font> 
+            <input type="hidden" name="realname" value="Mailing List Submit">
+            <input type="hidden" name="env_report" value="REMOTE_HOST, REMOTE_ADDR, REMOTE_USER, HTTP_USER_AGENT, SERVER_NAME">
+          </p>
+        </form></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <table width="700" border="0" cellpadding="1" cellspacing="2">
+    <!--DWLayoutTable-->
+    <tr> 
+      <td width="83" height="17"></td>
+      <td width="71" valign="top" bgcolor="#333333"><font size="2"> &nbsp;Booking</font></td>
+      <td width="183" valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:booking@hollowdays.com">booking@hollowdays.com</a></font></td>
+      <td width="15"></td>
+      <td width="72" valign="top" bgcolor="#333333"><font size="2">&nbsp;Joe </font></td>
+      <td width="164" valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:joe@hollowdays.com">joe@hollowdays.com</a></font></td>
+      <td width="82"></td>
+    </tr>
+    <tr> 
+      <td width="83" height="17"></td>
+      <td width="71" valign="top" bgcolor="#333333"><font size="2"> &nbsp;Info</font></td>
+      <td width="183" valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:info@hollowdays.com">info@hollowdays.com</a></font></td>
+      <td></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;Nick</font></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:nick@hollowdays.com">nick@hollowdays.com</a></font></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td width="83" height="17"></td>
+      <td width="71" valign="top" bgcolor="#333333"><font size="2"> &nbsp;Webmaster</font></td>
+      <td width="183" valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:webmaster@hollowdays.com">webmaster@hollowdays.com</a></font></td>
+      <td></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;Jeremy</font></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:Jeremy@hollowdays.com">jeremy@hollowdays.com</a></font></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td width="83" height="17"></td>
+      <td width="71" valign="top" bgcolor="#333333"><font size="2"> &nbsp;Phone</font></td>
+      <td width="183" valign="top" bgcolor="#333333"><font size="2"><strong>&nbsp;(352) 
+        336-8468 (ask for Joe)</strong></font></td>
+      <td></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;Luke</font></td>
+      <td valign="top" bgcolor="#333333"><font size="2">&nbsp;<a href="mailto:luke@hollowdays.com">luke@hollowdays.com</a></font></td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td height="15"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <br>
+  <a href="/" target="_parent">home</a>| <a href="http://www.hollowdays.com/news/" target="_parent">news</a> 
+  | <a href="/lyrics/" target="_parent">lyrics</a> | <a href="http://www.hollowdays.com/shows/" target="_parent">shows</a> 
+  | <a href="/press/">press</a> | <a href="http://www.hollowdays.com/bios" target="_parent">bios</a> 
+  | <a href="http://www.hollowdays.com/mp3s/" target="_parent">mp3s</a> | <a href="http://www.hollowdays.com/pictures/" target="_parent">pictures</a> 
+  | <a href="http://www.hollowdays.com/contact/" target="_parent">contact</a> 
+  | <a href="http://www.hollowdays.com/list/" target="_parent">mailing list</a> 
+  | <a href="http://www.hollowdays.com/links/" target="_parent">links</a> | <a href="/">&copy;2003 
+  Hollow Days</a><font size="2"><br>
+  </font><a href="http://www.herchel.com" target="_blank">Website designed by 
+  Herchel Services</a> </div>
+</body>
+</html>

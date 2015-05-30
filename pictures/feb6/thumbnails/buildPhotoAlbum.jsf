@@ -1,0 +1,84 @@
+App.progressCountTotal = 10;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 016.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Picture 016.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 016_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 016_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 016_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 016_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 033.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Picture 033.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 033_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 033_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 033_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 033_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 033_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 033_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 028.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Picture 028.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 028_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 028_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 028_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 028_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 022.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Picture 022.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 022_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 022_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 022_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 022_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 022_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 022_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 021.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'Picture 021.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 021_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 021_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 021_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 021_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 021_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 021_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 010.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'Picture 010.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 010_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 010_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 010_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 010_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 010_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 010_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 009.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'Picture 009.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 009_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 009_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 009_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 009_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 009_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 009_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 007.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'Picture 007.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 007_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 007_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 007_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 007_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 007_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 007_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 006.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'Picture 006.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 006_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 006_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 006_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 006_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 006_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 006_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/web/hollowdays.com/working/shows/images/Picture 005.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'Picture 005.jpg';
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/images/Picture 005_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/images/Picture 005_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/images/Picture 005_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 005_jpg.jpg') || confirm('file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 005_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/web/hollowdays.com/working/shows2/thumbnails/Picture 005_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+'done';
